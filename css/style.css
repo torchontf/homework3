@@ -13,7 +13,7 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background-image: url("images/pigeon-background.jpeg") #DDDDDD; /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
+  background: url("../images/pigeon-background.jpeg") #DDDDDD; /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
   background-size: cover ;
   background-position: center;
   background-repeat: no-repeat;

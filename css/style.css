@@ -13,7 +13,7 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background: url("images/pigeon-background.jpeg") #DDDDDD; /*Why doesn't this give me the image?*/
+  background-image: url("images/pigeon-background.jpeg") #DDDDDD; /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
   background-size: cover ;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,9 +101,6 @@ thead tr:first-child th:last-child{
   border-radius: 0px 10px 0px 0px;
 }
 
-/* tbody tr:last-child td:first-child{
-  border-radius: 0px 0px 0px 10px;
-} */
 
 footer{
   width:100%;

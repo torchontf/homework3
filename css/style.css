@@ -36,7 +36,7 @@ caption{
 }
 
 p{
-  padding-top: 15x;
+  padding-top: 15px;
 }
 
 a{
@@ -58,7 +58,7 @@ table{
   background-color: #7e0820;
   color: #FFFFFF;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
 }
 
@@ -77,9 +77,9 @@ tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-tr{
+/* tr{
   transition: all 1s ease;
-}
+} */
 
 tr:hover{
   background-color: rgba(126, 8, 32, 0.25);
@@ -108,9 +108,12 @@ tbody tr:last-child td:last-child{
 footer{
   width:100%;
   min-height: 75px;
-  background:#000000;
+  background: #000000;
   text-align:center;
   color: #FFFFFF;
   position: fixed;
   bottom: 0;
+  margin-left: -1.2rem;
+  /* add back negative margin value */
+  padding-left: 1.2rem;
 }

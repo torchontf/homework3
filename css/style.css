@@ -15,7 +15,7 @@ body{
   font-family: 'Andika', sans-serif;
   background-image: url("../images/pigeon-background.JPEG"); /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
   background-color: #DDDDDD;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@ main{
 }
 
 h1{
-  color: ##C12258;
+  color: #c12258;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -37,7 +37,6 @@ caption{
 
 p{
   padding-top: 15x;
-
 }
 
 a{
@@ -74,21 +73,17 @@ td{
   padding: 10px;
 }
 
-
-tr:nth-child(odd){
+tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-/* Should I specify the opacity of the even numbered lines? */
-
 tr{
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 }
 
 tr:hover{
-  background-color: rgb(126, 8, 48, 0.25)
+  background-color: rgba(126, 8, 32, 0.25);
 }
-
 
 *:focus{
     border: 3px dashed #417243;
@@ -102,6 +97,13 @@ thead tr:first-child th:last-child{
   border-radius: 0px 10px 0px 0px;
 }
 
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
 
 footer{
   width:100%;

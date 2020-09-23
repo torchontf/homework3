@@ -13,7 +13,8 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background: url("../images/pigeon-background.jpeg") #DDDDDD; /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
+  background-image: url("../images/pigeon-background.JPEG"); /*Why doesn't this give me the image? Chnaged JPEG to jpg. still no luck. should it be to jpeg?*/
+  background-color: #DDDDDD;
   background-size: cover ;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +25,7 @@ main{
 }
 
 h1{
-  color: #B21F50;
+  color: ##C12258;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -55,7 +56,7 @@ table{
 .colhead{
   min-width: 125px;
   padding: 10px;
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   text-align: center;
   vertical-align: center;
